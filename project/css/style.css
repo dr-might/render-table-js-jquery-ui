@@ -1,0 +1,70 @@
+         body {
+                padding-top: 20px;
+                padding-bottom: 60px;
+            }
+
+            /* Custom container */
+            .container {
+                margin: 0 auto;
+                max-width: 940px;
+
+            }
+
+            h2 {
+                color: #00a3e2;
+            }
+            #filter {
+                width: 425px; margin-right: 10px;
+            }
+
+            .chbox {
+                width: 45px; height: 45px;
+            }
+
+            input[type="checkbox"] {
+                margin-top: 15px; margin-left: 15px;
+            }
+
+            .content {
+                border: 1px solid #e5e5e5; padding: 5px;
+                border-radius: 3px;
+                margin-top: 15px;
+            }
+
+
+
+            #add{
+                margin-bottom: 10px; height: 30px;
+            }
+
+            #remove {
+                margin-right: 10px;
+                margin-bottom: 10px; height: 30px;
+            }
+            #location_list .row:hover{
+                background-color: #daedff;
+                border-radius: 3px;
+            }
+            #location_list .row{
+                margin-left: 0px; margin-top: 5px; margin-bottom: 5px; padding-bottom: 5px; padding-top: 5px;
+            }
+            .city {
+                font-size: 16px;
+            }
+            #location_list .span1 {
+                margin-left: 0px;
+            }
+
+            #location_list .ui-selected { 
+                background: #b1d000 !important; 
+                border-radius: 3px;
+            }
+
+            #location_list .ui-selected .city { 
+                color: white; 
+                font-weight: bold;
+            }
+            
+            .default {
+                display: none;
+            }
